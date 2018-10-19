@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBB35972179814A006B4E37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35962179814A006B4E37 /* AppDelegate.m */; };
+		6EBB359A2179814A006B4E37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35992179814A006B4E37 /* ViewController.m */; };
+		6EBB359D2179814A006B4E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB359B2179814A006B4E37 /* Main.storyboard */; };
+		6EBB359F2179814C006B4E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB359E2179814C006B4E37 /* Assets.xcassets */; };
+		6EBB35A22179814C006B4E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB35A02179814C006B4E37 /* LaunchScreen.storyboard */; };
+		6EBB35A52179814C006B4E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35A42179814C006B4E37 /* main.m */; };
+		6EBB35AF2179814C006B4E37 /* LTVMediaPicker_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35AE2179814C006B4E37 /* LTVMediaPicker_DemoTests.m */; };
+		6EBB35BA2179814C006B4E37 /* LTVMediaPicker_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35B92179814C006B4E37 /* LTVMediaPicker_DemoUITests.m */; };
+		6EBB35CA21798187006B4E37 /* LTVMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB35C821798187006B4E37 /* LTVMediaPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBB35AB2179814C006B4E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBB358A2179814A006B4E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBB35912179814A006B4E37;
+			remoteInfo = "LTVMediaPicker-Demo";
+		};
+		6EBB35B62179814C006B4E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBB358A2179814A006B4E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBB35912179814A006B4E37;
+			remoteInfo = "LTVMediaPicker-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EBB35922179814A006B4E37 /* LTVMediaPicker-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTVMediaPicker-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBB35952179814A006B4E37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EBB35962179814A006B4E37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EBB35982179814A006B4E37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EBB35992179814A006B4E37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EBB359C2179814A006B4E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBB359E2179814C006B4E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBB35A12179814C006B4E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBB35A32179814C006B4E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBB35A42179814C006B4E37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EBB35AA2179814C006B4E37 /* LTVMediaPicker-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTVMediaPicker-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBB35AE2179814C006B4E37 /* LTVMediaPicker_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVMediaPicker_DemoTests.m; sourceTree = "<group>"; };
+		6EBB35B02179814C006B4E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBB35B52179814C006B4E37 /* LTVMediaPicker-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTVMediaPicker-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBB35B92179814C006B4E37 /* LTVMediaPicker_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVMediaPicker_DemoUITests.m; sourceTree = "<group>"; };
+		6EBB35BB2179814C006B4E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBB35C821798187006B4E37 /* LTVMediaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTVMediaPicker.m; sourceTree = "<group>"; };
+		6EBB35C921798187006B4E37 /* LTVMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTVMediaPicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBB358F2179814A006B4E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35A72179814C006B4E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35B22179814C006B4E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBB35892179814A006B4E37 = {
+			isa = PBXGroup;
+			children = (
+				6EBB35942179814A006B4E37 /* LTVMediaPicker-Demo */,
+				6EBB35AD2179814C006B4E37 /* LTVMediaPicker-DemoTests */,
+				6EBB35B82179814C006B4E37 /* LTVMediaPicker-DemoUITests */,
+				6EBB35932179814A006B4E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBB35932179814A006B4E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB35922179814A006B4E37 /* LTVMediaPicker-Demo.app */,
+				6EBB35AA2179814C006B4E37 /* LTVMediaPicker-DemoTests.xctest */,
+				6EBB35B52179814C006B4E37 /* LTVMediaPicker-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBB35942179814A006B4E37 /* LTVMediaPicker-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB35C721798187006B4E37 /* LTVMediaPicker */,
+				6EBB35952179814A006B4E37 /* AppDelegate.h */,
+				6EBB35962179814A006B4E37 /* AppDelegate.m */,
+				6EBB35982179814A006B4E37 /* ViewController.h */,
+				6EBB35992179814A006B4E37 /* ViewController.m */,
+				6EBB359B2179814A006B4E37 /* Main.storyboard */,
+				6EBB359E2179814C006B4E37 /* Assets.xcassets */,
+				6EBB35A02179814C006B4E37 /* LaunchScreen.storyboard */,
+				6EBB35A32179814C006B4E37 /* Info.plist */,
+				6EBB35A42179814C006B4E37 /* main.m */,
+			);
+			path = "LTVMediaPicker-Demo";
+			sourceTree = "<group>";
+		};
+		6EBB35AD2179814C006B4E37 /* LTVMediaPicker-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB35AE2179814C006B4E37 /* LTVMediaPicker_DemoTests.m */,
+				6EBB35B02179814C006B4E37 /* Info.plist */,
+			);
+			path = "LTVMediaPicker-DemoTests";
+			sourceTree = "<group>";
+		};
+		6EBB35B82179814C006B4E37 /* LTVMediaPicker-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB35B92179814C006B4E37 /* LTVMediaPicker_DemoUITests.m */,
+				6EBB35BB2179814C006B4E37 /* Info.plist */,
+			);
+			path = "LTVMediaPicker-DemoUITests";
+			sourceTree = "<group>";
+		};
+		6EBB35C721798187006B4E37 /* LTVMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB35C921798187006B4E37 /* LTVMediaPicker.h */,
+				6EBB35C821798187006B4E37 /* LTVMediaPicker.m */,
+			);
+			name = LTVMediaPicker;
+			path = ../../LTVMediaPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBB35912179814A006B4E37 /* LTVMediaPicker-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBB35BE2179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-Demo" */;
+			buildPhases = (
+				6EBB358E2179814A006B4E37 /* Sources */,
+				6EBB358F2179814A006B4E37 /* Frameworks */,
+				6EBB35902179814A006B4E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTVMediaPicker-Demo";
+			productName = "LTVMediaPicker-Demo";
+			productReference = 6EBB35922179814A006B4E37 /* LTVMediaPicker-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBB35A92179814C006B4E37 /* LTVMediaPicker-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBB35C12179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-DemoTests" */;
+			buildPhases = (
+				6EBB35A62179814C006B4E37 /* Sources */,
+				6EBB35A72179814C006B4E37 /* Frameworks */,
+				6EBB35A82179814C006B4E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBB35AC2179814C006B4E37 /* PBXTargetDependency */,
+			);
+			name = "LTVMediaPicker-DemoTests";
+			productName = "LTVMediaPicker-DemoTests";
+			productReference = 6EBB35AA2179814C006B4E37 /* LTVMediaPicker-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EBB35B42179814C006B4E37 /* LTVMediaPicker-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBB35C42179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-DemoUITests" */;
+			buildPhases = (
+				6EBB35B12179814C006B4E37 /* Sources */,
+				6EBB35B22179814C006B4E37 /* Frameworks */,
+				6EBB35B32179814C006B4E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBB35B72179814C006B4E37 /* PBXTargetDependency */,
+			);
+			name = "LTVMediaPicker-DemoUITests";
+			productName = "LTVMediaPicker-DemoUITests";
+			productReference = 6EBB35B52179814C006B4E37 /* LTVMediaPicker-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBB358A2179814A006B4E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Lotheve;
+				TargetAttributes = {
+					6EBB35912179814A006B4E37 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6EBB35A92179814C006B4E37 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6EBB35912179814A006B4E37;
+					};
+					6EBB35B42179814C006B4E37 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6EBB35912179814A006B4E37;
+					};
+				};
+			};
+			buildConfigurationList = 6EBB358D2179814A006B4E37 /* Build configuration list for PBXProject "LTVMediaPicker-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBB35892179814A006B4E37;
+			productRefGroup = 6EBB35932179814A006B4E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EBB35912179814A006B4E37 /* LTVMediaPicker-Demo */,
+				6EBB35A92179814C006B4E37 /* LTVMediaPicker-DemoTests */,
+				6EBB35B42179814C006B4E37 /* LTVMediaPicker-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBB35902179814A006B4E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBB35A22179814C006B4E37 /* LaunchScreen.storyboard in Resources */,
+				6EBB359F2179814C006B4E37 /* Assets.xcassets in Resources */,
+				6EBB359D2179814A006B4E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35A82179814C006B4E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35B32179814C006B4E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBB358E2179814A006B4E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBB359A2179814A006B4E37 /* ViewController.m in Sources */,
+				6EBB35A52179814C006B4E37 /* main.m in Sources */,
+				6EBB35972179814A006B4E37 /* AppDelegate.m in Sources */,
+				6EBB35CA21798187006B4E37 /* LTVMediaPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35A62179814C006B4E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBB35AF2179814C006B4E37 /* LTVMediaPicker_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBB35B12179814C006B4E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBB35BA2179814C006B4E37 /* LTVMediaPicker_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBB35AC2179814C006B4E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBB35912179814A006B4E37 /* LTVMediaPicker-Demo */;
+			targetProxy = 6EBB35AB2179814C006B4E37 /* PBXContainerItemProxy */;
+		};
+		6EBB35B72179814C006B4E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBB35912179814A006B4E37 /* LTVMediaPicker-Demo */;
+			targetProxy = 6EBB35B62179814C006B4E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EBB359B2179814A006B4E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBB359C2179814A006B4E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBB35A02179814C006B4E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBB35A12179814C006B4E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBB35BC2179814C006B4E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EBB35BD2179814C006B4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBB35BF2179814C006B4E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBB35C02179814C006B4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBB35C22179814C006B4E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTVMediaPicker-Demo.app/LTVMediaPicker-Demo";
+			};
+			name = Debug;
+		};
+		6EBB35C32179814C006B4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTVMediaPicker-Demo.app/LTVMediaPicker-Demo";
+			};
+			name = Release;
+		};
+		6EBB35C52179814C006B4E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LTVMediaPicker-Demo";
+			};
+			name = Debug;
+		};
+		6EBB35C62179814C006B4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LTVMediaPicker-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lotheve.LTVMediaPicker-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LTVMediaPicker-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBB358D2179814A006B4E37 /* Build configuration list for PBXProject "LTVMediaPicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBB35BC2179814C006B4E37 /* Debug */,
+				6EBB35BD2179814C006B4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBB35BE2179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBB35BF2179814C006B4E37 /* Debug */,
+				6EBB35C02179814C006B4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBB35C12179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBB35C22179814C006B4E37 /* Debug */,
+				6EBB35C32179814C006B4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBB35C42179814C006B4E37 /* Build configuration list for PBXNativeTarget "LTVMediaPicker-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBB35C52179814C006B4E37 /* Debug */,
+				6EBB35C62179814C006B4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBB358A2179814A006B4E37 /* Project object */;
+}
